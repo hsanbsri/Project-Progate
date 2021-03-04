@@ -1,0 +1,188 @@
+body {
+  font-family: "Avenir Next";
+  color: #404146;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #00abfa;
+  color: #fff;
+  height: 100px;
+  width: 99%;
+}
+
+.header-logo {
+  float: left;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  padding: 25px 40px;
+}
+
+.header-list li {
+  float: right;
+  padding: 40px 18px;
+  font-size: 16px;
+}
+
+.header-list a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.copy-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.copy-container h1 {
+  font-size: normal;
+  margin-bottom: 100px;
+  letter-spacing: 10px;
+}
+
+.copy-container h2 {
+  font-size: normal;
+  font-weight: 200;
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+
+.copy-container span {
+  color: #00ff0d;
+}
+
+.copy-container img {
+  height: 300px;
+}
+
+.about {
+  font-size: 28px;
+  height: 385px;
+  background-color: rgb(244, 244, 244);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding: 10rem;
+}
+
+/*.about h3 {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}*/
+
+.about p {
+  padding: 0px 150px;
+  font-size: 20px;
+}
+
+.contents {
+  height: 500px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.contents h3 {
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+
+.contents-item {
+  float: left;
+  width: 33.3%;
+}
+
+.contents-item img {
+  height: 300px;
+  box-shadow: 5px 5px 10px rgba(228, 228, 228, 0.5);
+}
+
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.contact-form {
+  height: 500px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: rgb(244, 244, 244);
+}
+
+.contact-title {
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+
+input,
+textarea {
+  width: 800px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 0px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+::placeholder {
+  font-family: "Avenir Next";
+  color: #7c7d83;
+}
+
+.contact-submit {
+  width: 500px;
+  background-color: #0ee6db;
+  color: #7a7a7a;
+  font-size: 22px;
+}
+
+.contact-form p {
+  font-size: 20px;
+}
+
+.footer {
+  background-color: #00abfa;
+  color: #fff;
+  height: 150px;
+  width: 100%;
+}
+
+.footer-logo {
+  padding: 4rem;
+  float: left;
+  font-size: 24px;
+  letter-spacing: 4px;
+  padding-left: 2%;
+  color: #fff;
+}
+.footer-creator {
+  float: left;
+  margin-left: 20%;
+  padding-top: 20px;
+  padding: 5rem;
+  color: #fff;
+}
+
+.footer-creator a {
+  color: #fff;
+}
+
+.footer-list {
+  float: right;
+  padding-right: 2%;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
+
+.footer-list a {
+  text-decoration: none;
+  color: #fff;
+  float: unset;
+}
